@@ -18,7 +18,7 @@ body{
 
 
 h1{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
     font-size: 0.5 rem;
 }
 
@@ -39,3 +39,46 @@ h1{
     justify-content: space-evenly;
     margin-left: 15px
 }
+
+.box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+img{
+    height: 100px;
+}
+
+.img-paper{
+    margin-left: 30px;
+}
+.game{
+    border: solid 1px black;
+    max-width: 800px;
+    width: 85%;
+    height: 95%;
+    align-self: center;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+button{
+    width: 90%;
+    align-self: center;
+}
+.game{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.intro{
+    margin: auto;
+    width: 80%;    
+}
+
+
